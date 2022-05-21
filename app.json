@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "watch_list",
+    "name": "Watch List",
     "slug": "watch_list",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -19,13 +19,15 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.aydinayoguzhan.watch-list"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.aydinayoguzhan.watch_list"
     },
     "web": {
       "favicon": "./assets/images/favicon.png"
